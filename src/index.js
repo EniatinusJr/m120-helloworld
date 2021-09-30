@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App, {  } from './App';
 import reportWebVitals from './reportWebVitals';
+import Bmi from './Bmi';
+import List from "./List";
+import Apicalls from "./Apicalls";
+import Deckofcard from "./Deckofcard";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Deckofcard></Deckofcard>
   </React.StrictMode>,
   document.getElementById('root')
 );
